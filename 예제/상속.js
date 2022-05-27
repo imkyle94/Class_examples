@@ -1,8 +1,5 @@
 class Animal {
-  name: string;
-  type: string;
-
-  constructor(name: string) {
+  constructor(name) {
     this.name = name;
     this.type = "animal";
   }
@@ -13,7 +10,7 @@ class Animal {
 }
 
 class Lion extends Animal {
-  constructor(name: string) {
+  constructor(name) {
     super(name);
     this.type = "lion";
   }
